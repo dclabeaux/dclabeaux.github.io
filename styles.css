@@ -6,13 +6,17 @@ body{
 .assignment{
     display: flex;
     margin:10px;
+    margin-bottom:30px;
     padding: 10px;
     background: khaki;
+    border-radius:5px;
+    box-shadow: 5px 8px gold;
 }
 
 .assignment img{
     width:200px;
     border: 2px solid #8C4D3F;
+    border-radius:5px;
 }
 
 h1{
@@ -23,4 +27,8 @@ h1{
 a {
     text-decoration:none;
     color: #fff;
+}
+
+.assignment a:hover{
+    color:rgb(180, 156, 19);
 }
